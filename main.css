@@ -1,0 +1,989 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "pant";
+  src: url("../fonts/panton_light_caps.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "mei";
+  src: url("../fonts/meiryo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "neu";
+  src: url("../fonts/NeuronExtraLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "pal";
+  src: url("../fonts/palatino_bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "lob";
+  src: url("../fonts/lobster.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.body {
+  background-color: #f7fbfe;
+  height: 100vh;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .body {
+    max-width: 100%;
+    max-height: 100vh;
+  }
+}
+
+.header {
+  background: url("../test/IMG/head_o_kompanii.jpg");
+  max-width: 1920px;
+  height: 190px;
+  margin-top: -10px;
+}
+@media screen and (max-width: 480px) {
+  .header {
+    background: url("../test/IMG/head_o_kompanii.jpg");
+    width: 800px;
+  }
+}
+
+.header_text {
+  font-size: 42px;
+  position: relative;
+  font-family: "pant";
+  color: #325079;
+  margin-top: -150px;
+  margin-left: 370px;
+  width: 520px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 480px) {
+  .header_text {
+    font-size: 30px;
+    margin-left: 170px;
+  }
+}
+
+.prod {
+  font-size: 26px;
+  font-family: "pant";
+  color: #325079;
+  margin-top: 20px;
+  margin-left: 370px;
+}
+@media screen and (max-width: 480px) {
+  .prod {
+    width: 490px;
+    font-size: 18px;
+    margin-left: 140px;
+  }
+}
+
+.proect {
+  width: 200px;
+  position: absolute;
+  margin-left: 108px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 480px) {
+  .proect {
+    width: 100px;
+    margin-left: 25px;
+  }
+}
+
+.bluestripe {
+  position: absolute;
+  width: 100%;
+  margin-top: 183px;
+  height: 90px;
+}
+@media screen and (max-width: 480px) {
+  .bluestripe {
+    width: 700px;
+  }
+}
+
+.proectpic {
+  /* Style for "проектиров" */
+  width: 60px;
+  height: 60px;
+}
+
+.proect_text {
+  /* Style for "Проектиров" */
+  width: 126px;
+  height: 42px;
+  margin-left: -10px;
+  margin-top: 15px;
+  display: inline-block;
+  color: #2764cf;
+  font-family: "mei";
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "П, роектир" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  .proect_text {
+    font-size: 10px;
+  }
+}
+
+.techresh {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  margin-left: 340px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 480px) {
+  .techresh {
+    width: 30px;
+    margin-left: 160px;
+  }
+}
+
+.montazh {
+  position: absolute;
+  width: 200px;
+  height: 160px;
+  margin-left: 590px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 480px) {
+  .montazh {
+    width: 60px;
+    margin-left: 310px;
+  }
+}
+
+.proizvodsvo {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  margin-left: 840px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 480px) {
+  .proizvodsvo {
+    width: 60px;
+    margin-left: 435px;
+  }
+}
+
+.service {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  margin-left: 1050px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 480px) {
+  .service {
+    width: 60px;
+    margin-left: 570px;
+  }
+}
+
+.techresh_text {
+  /* Style for "Проектиров" */
+  width: 160px;
+  height: 42px;
+  margin-left: -30px;
+  color: #2764cf;
+  font-family: "mei";
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "П, роектир" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  .techresh_text {
+    font-size: 10px;
+    width: 60px;
+    margin-left: 15px;
+    margin-top: 12px;
+  }
+}
+
+.montazh_text {
+  /* Style for "Проектиров" */
+  width: 126px;
+  height: 42px;
+  margin-left: -15px;
+  color: #2764cf;
+  font-family: "mei";
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "П, роектир" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  .montazh_text {
+    font-size: 10px;
+    margin-left: -20px;
+    margin-top: 12px;
+  }
+}
+
+.proizvodstvo_text {
+  /* Style for "Проектиров" */
+  width: 126px;
+  height: 42px;
+  margin-left: -15px;
+  color: #2764cf;
+  font-family: "mei";
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "П, роектир" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  .proizvodstvo_text {
+    font-size: 10px;
+    margin-top: 12px;
+  }
+}
+
+.service_text {
+  /* Style for "Проектиров" */
+  width: 126px;
+  height: 42px;
+  margin-left: -15px;
+  margin-top: 4px;
+  color: #2764cf;
+  font-family: "mei";
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "П, роектир" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  .service_text {
+    font-size: 10px;
+  }
+}
+
+.aboutcompany {
+  position: absolute;
+  margin-top: 600px;
+}
+
+.about_header {
+  position: absolute;
+  display: inline;
+  width: 200px;
+  font-family: "pant";
+  font-size: 30px;
+  color: #325079;
+  font-weight: bold;
+  margin-top: -240px;
+  margin-left: 93px;
+}
+@media screen and (max-width: 480px) {
+  .about_header {
+    width: 260px;
+    margin-left: 50px;
+  }
+}
+
+.av {
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 93px;
+}
+@media screen and (max-width: 768px) {
+  .av {
+    margin-left: 50px;
+  }
+}
+
+.about_text {
+  position: absolute;
+  font-family: "neu";
+  font-weight: bold;
+  font-size: 26px;
+  font-variant: small-caps;
+  color: #325079;
+  height: 361px;
+  width: 793px;
+  margin-top: -130px;
+  margin-left: 93px;
+}
+@media screen and (max-width: 768px) {
+  .about_text {
+    margin-left: 50px;
+    font-size: 20px;
+    width: 500px;
+  }
+}
+
+.npo {
+  color: #2764cf;
+  text-decoration: none;
+}
+
+.otvetst_pic {
+  position: absolute;
+  width: 1300px;
+  height: 485px;
+  margin-top: 34px;
+}
+@media screen and (max-width: 768px) {
+  .otvetst_pic {
+    width: 900px;
+    height: 400px;
+  }
+}
+
+.otvetst {
+  margin-top: 870px;
+  margin-left: -250px;
+  text-transform: uppercase;
+  color: #325079;
+  font-family: "Palatino Linotype - Roman";
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .otvetst {
+    font-size: 24px;
+    margin-left: 30px;
+  }
+}
+
+.cleanwhater {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 770px;
+  color: #badbef;
+  font-family: "lob";
+  font-size: 40px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normaL;
+}
+@media screen and (max-width: 768px) {
+  .cleanwhater {
+    margin-left: 350px;
+    font-size: 20px;
+    width: 600px;
+    margin-top: 1px;
+  }
+}
+
+.producton_title {
+  /* Style for "Наша проду" */
+  width: 400px;
+  height: 22px;
+  color: #325079;
+  font-family: "pant";
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "Н, аша про" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-top: 650px;
+  margin-left: 33px;
+}
+@media screen and (max-width: 480px) {
+  .producton_title {
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+
+.avc {
+  width: 40px;
+  height: 7px;
+  background-color: #badbef;
+  margin-left: 93px;
+}
+@media screen and (max-width: 480px) {
+  .avc {
+    margin-left: 45px;
+    width: 128px;
+  }
+}
+
+.vodoochist {
+  position: absolute;
+  display: block;
+  width: 451px;
+  height: 431px;
+  background-color: #badbef;
+  box-shadow: 1px 5px 5px rgba(211, 211, 211, 0.75);
+  margin-left: 750px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .vodoochist {
+    margin-top: 500px;
+    margin-left: 92px;
+  }
+}
+
+.vodoochist_title {
+  /* Style for "водоочистн" */
+  position: absolute;
+  width: 376px;
+  height: 20px;
+  color: #325079;
+  font-family: "mei";
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "водоочистн" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-left: 40px;
+}
+
+.vodoochist_text {
+  /* Style for "Флотаторы," */
+  width: 364px;
+  height: 48px;
+  color: #325079;
+  font-family: "mei";
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "Флотаторы," */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.vodoochis_pic {
+  width: 451px;
+  margin-right: 5px;
+  margin-top: 50px;
+}
+
+.los {
+  position: absolute;
+  display: block;
+  width: 451px;
+  height: 431px;
+  margin-top: 51px;
+  margin-left: 93px;
+  background-color: #badbef;
+  box-shadow: 1px 5px 5px rgba(211, 211, 211, 0.75);
+}
+
+.los_pic {
+  margin-top: -20px;
+  width: 451px;
+}
+
+.los_title {
+  /* Style for "Локальные" */
+  width: 441px;
+  margin-top: -1 px;
+  color: #325079;
+  font-family: "mei";
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "Локальные" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.los_text {
+  font-family: "mei";
+  width: 376px;
+  height: 49px;
+  color: #325079;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+.namdoveraut {
+  position: absolute;
+  margin-top: 600px;
+  width: 1000px;
+  height: 106px;
+  font-size: 30px;
+  color: #2764cf;
+  margin-left: 150px;
+  font-family: "neu";
+  font-style: normal;
+  line-height: normal;
+  text-align: left;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+  .namdoveraut {
+    width: 450px;
+    margin-top: 1000px;
+    font-size: 26px;
+    margin-left: 100px;
+  }
+}
+
+.doverie {
+  background: url("../test/IMG/photo.png");
+  margin-top: 570px;
+  margin-left: 150px;
+  width: 784px;
+  height: 436px;
+}
+@media screen and (max-width: 480px) {
+  .doverie {
+    margin-left: 10px;
+  }
+}
+
+.line {
+  margin-top: -260px;
+  margin-left: 150px;
+  width: 900px;
+  height: 7px;
+  background-color: #badbef;
+}
+@media screen and (max-width: 480px) {
+  .line {
+    width: 450px;
+    margin-top: 250px;
+    margin-left: 86px;
+  }
+}
+
+.aero {
+  /* Style for "Аэропорты," */
+  margin-left: 150px;
+  margin-top: 60px;
+  width: 211px;
+  height: 115px;
+  color: #2764cf;
+  font-family: "mei";
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-variant: small-caps;
+  /* Text style for "Аэропорты," */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  .aero {
+    margin-left: 70px;
+    width: 200px;
+    margin-top: 40px;
+  }
+}
+
+.neft {
+  /* Style for "Нефтеперер" */
+  position: absolute;
+  margin-top: -125px;
+  margin-left: 500px;
+  width: 246px;
+  height: 132px;
+  color: #2764cf;
+  font-family: "mei";
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-variant: small-caps;
+  /* Text style for "Нефтеперер" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  .neft {
+    width: 200px;
+    margin-left: 400px;
+    margin-top: -125px;
+  }
+}
+
+.torg {
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 830px;
+  /* Style for "Торгово-ск" */
+  width: 267px;
+  height: 115px;
+  color: #2764cf;
+  font-family: "mei";
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-variant: small-caps;
+  /* Text style for "Торгово-ск" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  .torg {
+    margin-top: 110px;
+    margin-left: 65px;
+  }
+}
+
+.namdoveraut_title {
+  /* Style for "Нам доверя" */
+  margin-top: 200px;
+  margin-left: 93px;
+  width: 300px;
+  height: 22px;
+  color: #325079;
+  font-family: "pant";
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  /* Text style for "Н, ам дове" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  .namdoveraut_title {
+    margin-top: 350px;
+    margin-left: 50px;
+  }
+}
+
+.linedov {
+  position: absolute;
+  margin-left: 93px;
+  /* Style for "Прямоуголь" */
+  width: 200px;
+  height: 7px;
+  box-shadow: 1px 5px 5px rgba(197, 197, 197, 0.75);
+  background-color: #badbef;
+}
+@media screen and (max-width: 480px) {
+  .linedov {
+    margin-left: 50px;
+  }
+}
+
+.company {
+  margin-top: 70px;
+  margin-left: 93px;
+  width: 500px;
+  height: 700px;
+}
+@media screen and (max-width: 480px) {
+  .company {
+    width: 400px;
+    margin-top: 400px;
+  }
+}
+
+.indi {
+  /* Style for "Л3" */
+  width: 138px;
+  height: 48px;
+}
+@media screen and (max-width: 480px) {
+  .indi {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -300px;
+  }
+}
+
+.pg {
+  /* Style for "Л3" */
+  width: 120px;
+  height: 48px;
+  margin-left: 150px;
+}
+@media screen and (max-width: 480px) {
+  .pg {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -300px;
+  }
+}
+
+.rg {
+  /* Style for "Л3" */
+  width: 90px;
+  height: 70px;
+  margin-left: 550px;
+  margin-top: -65px;
+}
+@media screen and (max-width: 480px) {
+  .rg {
+    position: absolute;
+    margin-left: -250px;
+    margin-top: -500px;
+  }
+}
+
+.kub {
+  /* Style for "6Л" */
+  width: 92px;
+  height: 86px;
+  margin-left: 800px;
+  margin-top: -400px;
+}
+@media screen and (max-width: 480px) {
+  .kub {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -210px;
+  }
+}
+
+.luk {
+  /* Style for "7Л" */
+  width: 90px;
+  height: 78px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 480px) {
+  .luk {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -210px;
+  }
+}
+
+.danone {
+  margin-left: 180px;
+  margin-top: 10px;
+  width: 104px;
+  height: 37px;
+}
+@media screen and (max-width: 480px) {
+  .danone {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -70px;
+  }
+}
+
+.trns {
+  position: absolute;
+  margin-left: 145px;
+  margin-top: 35px;
+  width: 125px;
+  height: 71px;
+}
+@media screen and (max-width: 480px) {
+  .trns {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -80px;
+  }
+}
+
+.pnk {
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 50px;
+  width: 132px;
+  height: 24px;
+}
+@media screen and (max-width: 480px) {
+  .pnk {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 40px;
+  }
+}
+
+.krost {
+  width: 72px;
+  height: 72px;
+  margin-top: 50px;
+  margin-left: 33px;
+}
+@media screen and (max-width: 480px) {
+  .krost {
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 40px;
+  }
+}
+
+.sm {
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 94px;
+  height: 93px;
+}
+@media screen and (max-width: 480px) {
+  .sm {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 100px;
+  }
+}
+
+.kerama {
+  position: absolute;
+  width: 134px;
+  height: 25px;
+  margin-left: 140px;
+  margin-top: 90px;
+}
+@media screen and (max-width: 480px) {
+  .kerama {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 140px;
+  }
+}
+
+.mechta {
+  position: absolute;
+  margin-left: 410px;
+  margin-top: 70px;
+  width: 86px;
+  height: 87px;
+}
+@media screen and (max-width: 480px) {
+  .mechta {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 210px;
+  }
+}
+
+.imfoz {
+  width: 136px;
+  height: 91px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 480px) {
+  .imfoz {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 210px;
+  }
+}
+
+.krasok {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 480px) {
+  .krasok {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 330px;
+  }
+}
+
+.globus {
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 480px) {
+  .globus {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 330px;
+  }
+}
+
+.lenta {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 650px;
+}
